@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="ug" value="anna uniersity"></parameter>
+  <test thread-count="5" name="Test">
+	<parameter name="name1" value="subhi"></parameter>
+	<parameter name="name2" value="sony"></parameter>
+	
+	
+	<classes>
+		<class name="org.test.Practicesix"></class>
+		<class name="org.test.Sixtwo"></class>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
